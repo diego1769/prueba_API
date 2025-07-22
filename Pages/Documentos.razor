@@ -1,0 +1,41 @@
+@page "/documentos"
+@using MiAplicacionBlazor.Models
+@using MiAplicacionBlazor.Services
+@inject DocumentoService DocumentoService
+
+<h3>Documentos</h3>
+
+@if (documentos == null)
+{
+    <p><em>Cargando...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Descripción</th>
+                <th>Activo</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var documento in documentos)
+            {
+                <tr>
+                    <td>@documento.Codigo</td>
+                    <td>@documento.Descripcion</td>
+                    <td>@documento.VActiva</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Documento> documentos = new List<Documento>();
+    protected override async Task OnInitializedAsync()
+    {
+        documentos = await DocumentoService.GetDocumentosAsync();
+    }
+}

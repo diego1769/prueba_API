@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Diego\\Documents\\prueba\\MiAplicacionBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Diego\\Documents\\prueba\\MiAplicacionBlazor\\obj\\Debug\\net8.0\\compressed\\gkhle2makh.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\Diego\\Documents\\prueba\\MiAplicacionBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MiAplicacionBlazor.styles.css",
+      "PackagePath": "staticwebassets\\MiAplicacionBlazor.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Diego\\Documents\\prueba\\MiAplicacionBlazor\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Diego\\Documents\\prueba\\MiAplicacionBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Diego\\Documents\\prueba\\MiAplicacionBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Diego\\Documents\\prueba\\MiAplicacionBlazor\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Diego\\Documents\\prueba\\MiAplicacionBlazor\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Diego\\Documents\\prueba\\MiAplicacionBlazor\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Diego\\Documents\\prueba\\MiAplicacionBlazor\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MiAplicacionBlazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MiAplicacionBlazor.props",
+      "PackagePath": "build\\MiAplicacionBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MiAplicacionBlazor.props",
+      "PackagePath": "buildMultiTargeting\\MiAplicacionBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MiAplicacionBlazor.props",
+      "PackagePath": "buildTransitive\\MiAplicacionBlazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
